@@ -13,6 +13,7 @@ slideless, examples
 1. Unsupervised learning
     1. Clustering 
         1. K-means
+    1. Anomaly detection
 1. References
 
 ## Supervised learning
@@ -23,7 +24,8 @@ slideless, examples
 ### Classification
 
 ## Unsupervised learning
-### Clustering 
+### Clustering
+### Anomaly detection 
 
 ## Appendix
 ### Courses
