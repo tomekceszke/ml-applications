@@ -1,4 +1,5 @@
-#Practical applications of Machine Learning
+
+# Practical applications of Machine Learning
 
 ## ToC
 1. [Introduction](#introduction)
