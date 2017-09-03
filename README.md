@@ -65,4 +65,4 @@
 - WolframAlpha https://www.wolframalpha.com/
 
 ### My ML projects
-- https://github.com/tomekceszke?utf8=%E2%9C%93&tab=repositories&q=machine-learninge
+- https://github.com/tomekceszke?utf8=%E2%9C%93&tab=repositories&q=machine-learning
