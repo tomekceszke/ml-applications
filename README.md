@@ -25,8 +25,9 @@
 - Hypothesis
 - Cost function and its minimizing methods: gradient descent, normal equation, ...
 - F-score, r-square
-- Underfitting, overfitting, bias, ...
-- Feature scaling, normalization 
+- Underfitting, overfitting, bias, variance, ...
+- Feature scaling, normalization, regularization
+- Learning rate 
 #### Linear: 
 - Example: [Car Price Prediction](https://github.com/tomekceszke/car-price-prediction)
 #### Polynomial: 
