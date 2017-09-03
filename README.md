@@ -35,7 +35,7 @@
 ### Classification
 - Prediction vs classification
 #### Logistic regression:
-- Sigmoid
+- [Sigmoid](https://en.wikipedia.org/wiki/Sigmoid_function)
 - Example: [Traffic light detection](https://github.com/tomekceszke/traffic-light-detection) 
 #### Neural Networks
 - Neural Networks - explanation
@@ -64,5 +64,6 @@
 - Desmos https://www.desmos.com/calculator
 - WolframAlpha https://www.wolframalpha.com/
 
-### My ML projects
-- https://github.com/tomekceszke?utf8=%E2%9C%93&tab=repositories&q=machine-learning
+### ML projects
+- [My personal projects](https://github.com/tomekceszke?utf8=%E2%9C%93&tab=repositories&q=machine-learning)
+- [Where Am I](https://github.com/kootenpv/whereami)
