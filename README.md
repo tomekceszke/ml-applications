@@ -17,7 +17,8 @@
 1. [References](#references)
 
 ## Introduction
-- ML definition
+ > "computers the ability to learn without being explicitly programmed." 
+ [Arthur Samuel](https://en.wikipedia.org/wiki/Arthur_Samuel)
 
 ## Supervised learning
 (x,y)
@@ -35,6 +36,7 @@
 - Example: [Gas consumption forecast](https://github.com/tomekceszke/gas-consumption-forecast) 
 ### Classification
 - Prediction vs classification
+- Decision boundary
 #### Logistic regression:
 - [Sigmoid](https://en.wikipedia.org/wiki/Sigmoid_function)
 - Example: [Traffic light detection](https://github.com/tomekceszke/traffic-light-detection) 
