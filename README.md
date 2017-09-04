@@ -59,7 +59,8 @@
 - [PL] Dane publiczne https://danepubliczne.gov.pl  
 - [PL] https://mojepanstwo.pl/dane
 - [PL] GUS http://stat.gov.pl/
-- Kaggle https://www.kaggle.com/datasets    
+- Kaggle https://www.kaggle.com/datasets   
+- Google Trends https://trends.google.pl/trends/
 
 ### Tools
 - Desmos https://www.desmos.com/calculator
