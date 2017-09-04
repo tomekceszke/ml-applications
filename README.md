@@ -1,7 +1,6 @@
 
 # Practical applications of Machine Learning
 
-## ToC
 1. [Introduction](#introduction)
 1. [Supervised learning](#supervised-learning)
     1. [Regression](#regression)
@@ -17,18 +16,21 @@
 1. [References](#references)
 
 ## Introduction
- > "computers the ability to learn without being explicitly programmed." 
+ > "... computers the ability to learn without being explicitly programmed."
+
  [Arthur Samuel](https://en.wikipedia.org/wiki/Arthur_Samuel)
 
 ## Supervised learning
-(x,y)
+- (x,y) features, label
+
 ### Regression
-- Hypothesis
-- Cost function and its minimizing methods: gradient descent, normal equation, ...
+- Hypothesis: x -> h(x) -> predicted y
+- Cost function: accuracy of hypothesis function, also called "Squared error function" or "Mean squared error" https://www.desmos.com/calculator/nyuu7tokie
+- Minimization methods of J: [gradient descent](https://en.wikipedia.org/wiki/Gradient_descent), normal equation, ...
 - F-score, r-square
 - Underfitting, overfitting, bias, variance, ...
 - Feature scaling, normalization, regularization
-- Learning rate 
+- Learning rate: (α)
 #### Linear: 
 - Example: [Car Price Prediction](https://github.com/tomekceszke/car-price-prediction)
 #### Polynomial: 
