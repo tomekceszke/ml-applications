@@ -24,13 +24,21 @@
 - (x,y) features, label
 
 ### Regression
-- Hypothesis: x -> h(x) -> predicted y
-- Cost function: accuracy of hypothesis function, also called "Squared error function" or "Mean squared error" https://www.desmos.com/calculator/nyuu7tokie
-- Minimization methods of J: [gradient descent](https://en.wikipedia.org/wiki/Gradient_descent), normal equation, ...
+- Hypothesis x->hθ(x)->predicted y
+    - hθ(x)=θ0+θ1x1+θ2x2+θ3x3+⋯+θnxn
+    - https://www.desmos.com/calculator/ccrnfxvreb
+- Cost function: accuracy of hypothesis function, also called "Squared error function" or "Mean squared error"
+- Minimization methods of cost function:
+    - [gradient descent](https://www.youtube.com/watch?v=WnqQrPNYz5Q),
+        - feature scaling and mean normalization: −1 ≤ x(i) ≤ 1
+        - learning rate α
+    - [normal equation](https://www.youtube.com/watch?v=N4d_9GQ9QFc),
+        - https://en.wikipedia.org/wiki/Linear_least_squares_(mathematics)
+    - Conjugate gradient, BFGS, L-BFGS
 - F-score, r-square
-- Underfitting, overfitting, bias, variance, ...
-- Feature scaling, normalization, regularization
-- Learning rate: (α)
+- underfitting, overfitting, bias, variance, ...
+- regularization
+
 #### Linear: 
 - Example: [Car Price Prediction](https://github.com/tomekceszke/car-price-prediction)
 #### Polynomial: 
@@ -38,9 +46,19 @@
 - Example: [Gas consumption forecast](https://github.com/tomekceszke/gas-consumption-forecast) 
 ### Classification
 - Prediction vs classification
-- Decision boundary
+- y∈{0,1} - Binary Classification Problem
 #### Logistic regression:
-- [Sigmoid](https://en.wikipedia.org/wiki/Sigmoid_function)
+- Hypothesis: 0≤hθ(x)≤1
+    - https://www.desmos.com/calculator/kzk1lwvryl
+    - hθ(x)=g(θ0+θ1x1+θ2x2+θ3x3+⋯+θnxn)
+    - z=θ0+θ1x1+θ2x2+θ3x3+⋯+θnxn
+    - g(z) = 1/(1+e^-z) - [sigmoid](https://en.wikipedia.org/wiki/Sigmoid_function)
+- Decision boundary - the line that separates the area where y = 0 and where y = 1.
+    - hθ(x)≥0.5→y=1
+    - hθ(x)<0.5→y=0
+    - g(z)≥0.5 when z≥0
+- Cost function
+    - J(θ)=−1/m∑i=1m[y(i)log(hθ(x(i)))+(1−y(i))log(1−hθ(x(i)))]
 - Example: [Traffic light detection](https://github.com/tomekceszke/traffic-light-detection) 
 #### Neural Networks
 - Neural Networks - explanation
