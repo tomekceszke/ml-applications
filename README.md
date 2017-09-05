@@ -19,6 +19,8 @@
  > "...computers the ability to learn without being explicitly programmed."
  [Arthur Samuel](https://en.wikipedia.org/wiki/Arthur_Samuel)
 
+- https://insights.stackoverflow.com/survey/2017#salary :)
+
 ## Supervised learning
 - (x,y) features, label
 ### Regression
